@@ -1,0 +1,11 @@
+{
+    "orgName": "Trailhead Trivia Co",
+    "edition": "Developer",
+    "features": ["Communities"],
+    "settings": {
+        "orgPreferenceSettings": {
+            "networksEnabled": true,
+            "s1DesktopEnabled": true
+        }
+    }
+}
