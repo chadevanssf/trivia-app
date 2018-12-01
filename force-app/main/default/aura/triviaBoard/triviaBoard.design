@@ -1,0 +1,3 @@
+<design:component label="Trivia Board">
+    <design:attribute name="iconName" label="Icon Name" Description="Icon name from the Lightning Design System" />
+</design:component>

@@ -1,0 +1,24 @@
+<aura:component >
+    <!-- Public Attributes -->
+    <aura:attribute name="displayValue" default="100" type="String" access="public" />
+    <!-- Private Attributes -->
+    <!-- Event Attributes -->
+
+    <div class="trivia-width slds-visual-picker slds-visual-picker_vertical slds-visual-picker_medium">
+        <input type="radio" id="{!globalId + '_radio'}" name="options" value="visual-picker-13" />
+        <label for="{!globalId + '_radio'}">
+            <span class="trivia-width slds-visual-picker__figure slds-visual-picker__text slds-align_absolute-center">
+                <span>
+                    <span class="slds-text-heading_large">
+                        <lightning:formattedNumber value="{!v.displayValue}"
+                                                   style="currency"
+                                                   currencyCode="USD"
+                                                   minimumFractionDigits="0"
+                                                   maximumFractionDigits="0"/>
+                    </span>
+                </span>
+            </span>
+        </label>
+    </div>
+    
+</aura:component>
