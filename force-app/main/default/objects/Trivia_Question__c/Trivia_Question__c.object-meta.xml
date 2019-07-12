@@ -59,7 +59,29 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Trivia Questions</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <customTabListAdditionalFields>Order__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Display_Value__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Question_Text__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Answer_Text__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Trivia__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Trivia_Category__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Display_Value__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Question_Text__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Trivia_Category__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Trivia__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Display_Value__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Question_Text__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Trivia_Category__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Trivia__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>Display_Value__c</searchFilterFields>
+        <searchResultsAdditionalFields>Order__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Display_Value__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Question_Text__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Answer_Text__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Trivia__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Trivia_Category__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

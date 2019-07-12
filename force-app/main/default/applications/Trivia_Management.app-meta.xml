@@ -10,7 +10,8 @@
     <label>Trivia Management</label>
     <navType>Standard</navType>
     <tabs>Trivia__c</tabs>
-    <tabs>standard-report</tabs>
+    <tabs>Trivia_Category__c</tabs>
+    <tabs>Trivia_Question__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Trivia_Management_UtilityBar</utilityBar>
 </CustomApplication>

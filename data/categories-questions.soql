@@ -1,0 +1,7 @@
+SELECT Title__c, Order__c,
+(
+    SELECT Order__c, Display_Value__c, Question_Text__c, Answer_Text__c
+    FROM Trivia_Questions__r
+)
+FROM Trivia_Category__c
+ORDER BY Trivia__c, Order__c

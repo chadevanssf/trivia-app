@@ -1,14 +1,25 @@
-.classpath
-.DS_Store
-.sfdx
-.vscode
-.project
-.salesforce
-node_modules
-.idea
-.tern-project
-.settings
-selenium-client-jars/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiles and temp directories
+/dist
+/tmp
 test/artifacts
-Referenced Packages/
 salesforce.schema
+
+# Dependency directories
+node_modules
+Referenced Packages/
+
+# Cache directories
+.npm
+.vscode
+.DS_Store
+.classpath
+.sfdx
+.project
+.eslintcache

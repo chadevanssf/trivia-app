@@ -2,7 +2,12 @@
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>All</fullName>
     <columns>NAME</columns>
-    <columns>Title__c</columns>
+    <columns>Order__c</columns>
+    <columns>Display_Value__c</columns>
+    <columns>Question_Text__c</columns>
+    <columns>Answer_Text__c</columns>
+    <columns>Trivia__c</columns>
+    <columns>Trivia_Category__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>

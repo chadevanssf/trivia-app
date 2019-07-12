@@ -11,8 +11,11 @@
         action.setCallback(this, function(response) {
             var state = response.getState();
             if (component.isValid() && state === "SUCCESS") {
-                var questions = response.getReturnValue();
-                component.set("v.questions", questions);
+                var categories = response.getReturnValue();
+                var count = categories.length;
+                //console.log("categories", categories);
+                component.set("v.categories", categories);
+                component.set("v.categoryCount", count);
             }  else if (state === "ERROR") {
                 $A.log(response.getError());
                 console.log("triviaBoard:init: ", response.getError());

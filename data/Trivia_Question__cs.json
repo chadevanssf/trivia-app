@@ -1,0 +1,15 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Trivia_Question__c",
+                "referenceId": "Trivia_Question__cRef1"
+            },
+            "Order__c": 1,
+            "Display_Value__c": 100,
+            "Question_Text__c": "<p>Name 3 ways to earn badges in Trailhead</p>",
+            "Answer_Text__c": "<ul><li>Modules</li><li>Projects</li><li>Super Badges</li></ul>",
+            "Trivia_Category__c": "@Trivia_Category__cRef1"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Trivia_Category__c",
+                "referenceId": "Trivia_Category__cRef1"
+            },
+            "Title__c": "Apps/Trailhead",
+            "Order__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Trivia_Category__c",
+                "referenceId": "Trivia_Category__cRef2"
+            },
+            "Title__c": "Admin",
+            "Order__c": 2
+        },
+        {
+            "attributes": {
+                "type": "Trivia_Category__c",
+                "referenceId": "Trivia_Category__cRef3"
+            },
+            "Title__c": "Dev",
+            "Order__c": 3
+        },
+        {
+            "attributes": {
+                "type": "Trivia_Category__c",
+                "referenceId": "Trivia_Category__cRef4"
+            },
+            "Title__c": "Feeling Lucky",
+            "Order__c": 4
+        }
+    ]
+}

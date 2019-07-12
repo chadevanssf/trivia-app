@@ -1,0 +1,26 @@
+[
+    {
+        "sobject": "Trivia__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Combined_Trivia__cs.json"
+        ]
+    },
+    {
+        "sobject": "Trivia_Category__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Combined_Trivia_Category__cs.json"
+        ]
+    },
+    {
+        "sobject": "Trivia_Question__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "Combined_Trivia_Question__cs.json"
+        ]
+    }
+]

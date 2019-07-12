@@ -1,0 +1,11 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Trivia__c",
+                "referenceId": "Trivia__cRef1"
+            },
+            "Title__c": "Sample Trivia"
+        }
+    ]
+}

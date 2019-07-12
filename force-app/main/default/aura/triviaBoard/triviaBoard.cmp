@@ -4,8 +4,8 @@
     <!-- Design Attributes -->
     <aura:attribute name="iconName" default="standard:trailhead" type="String" access="public" />
     <!-- Private Attributes -->
-    <aura:attribute name="categories" default="3" type="String" access="private" />
-    <aura:attribute name="questions" type="Object" access="private"/>
+    <aura:attribute name="categoryCount" type="String" access="private" />
+    <aura:attribute name="categories" type="Object" access="private" />
     <!-- Event Attributes -->
     <aura:handler name="init" value="{!this}" action="{!c.init}"/>
     
@@ -31,12 +31,14 @@
     <div class="slds-box">
         <lightning:card title="{!v.simpleRecord.Title__c}" iconName="{!v.iconName}">
             <div class="slds-grid slds-gutters">
-                <aura:iteration items="1,2,3" var="categoryItem">
-                    <div class="{!'slds-col slds-size_1-of-' + v.categories}">
-                        <lightning:card variant="Narrow" title="{!'Category Header ' + categoryItem}">
+                <aura:iteration items="{!v.categories}" var="categoryItem">
+                    <div class="{!'slds-col slds-size_1-of-' + v.categoryCount}">
+                        <lightning:card variant="Narrow" title="{!categoryItem.Title__c}">
                             <div class="slds-form-element__control">
-                                <aura:iteration items="{!v.questions}" var="item">
-                                    <c:triviaTile displayValue="{!item.Display_Value__c}" />
+                                <aura:iteration items="{!categoryItem.Trivia_Questions__r}" var="item">
+                                    <c:triviaTile displayValue="{!item.Display_Value__c}"
+                                                  question="{!item.Question_Text__c}"
+                                                  answer="{!item.Answer_Text__c}" />
                                 </aura:iteration>
                             </div>
                         </lightning:card>

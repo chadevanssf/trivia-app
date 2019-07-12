@@ -1,9 +1,0 @@
-scratch-org-def: config/project-scratch-def.json
-assign-permset: true
-permset-name: TriviaAdmin
-run-apex-tests: false
-delete-scratch-org: false
-show-scratch-org-url: true
-data-plans:
-  - ./data/Trivia__c-plan.json
-open-path: /lightning/o/TriviaHome
